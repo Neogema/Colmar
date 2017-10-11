@@ -1,0 +1,420 @@
+/* Fonts */
+
+@font-face {
+  font-family: 'Orbitron';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/orbitron-v9-latin-regular.eot');
+  src: local('Orbitron Regular'), local('Orbitron-Regular'),
+       url('../fonts/orbitron-v9-latin-regular.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/orbitron-v9-latin-regular.woff2') format('woff2'),
+       url('../fonts/orbitron-regular.woff') format('woff'),
+       url('../fonts/orbitron-v9-latin-regular.ttf') format('truetype'),
+       url('../fonts/orbitron-v9-latin-regular.svg#Orbitron') format('svg');
+}
+@font-face {
+  font-family: 'Orbitron';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/orbitron-v9-latin-700.eot');
+  src: local('Orbitron Bold'), local('Orbitron-Bold'),
+       url('../fonts/orbitron-v9-latin-700.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/orbitron-v9-latin-700.woff2') format('woff2'),
+       url('../fonts/orbitron-bold.woff') format('woff'),
+       url('../fonts/orbitron-v9-latin-700.ttf') format('truetype'),
+       url('../fonts/orbitron-v9-latin-700.svg#Orbitron') format('svg');
+}
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/raleway-regular.eot');
+  src: local('Raleway'), local('Raleway-Regular'),
+       url('../fonts/raleway-regular.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/raleway-regular.woff2') format('woff2'),
+       url('../fonts/raleway-regular.woff') format('woff'),
+       url('../fonts/raleway-regular.ttf') format('truetype'),
+       url('../fonts/raleway-regular.svg#Raleway') format('svg');
+}
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/raleway-bold.eot');
+  src: local('Raleway Bold'), local('Raleway-Bold'),
+       url('../fonts/raleway-bold.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/raleway-bold.woff2') format('woff2'),
+       url('../fonts/raleway-bold.woff') format('woff'),
+       url('../fonts/raleway-bold.ttf') format('truetype'),
+       url('../fonts/raleway-bold.svg#Raleway') format('svg');
+}
+
+/* General Styling */
+
+html {
+  font-size: 16px;
+}
+body {
+  font-family: raleway, sans-serif;
+  line-height: 1.2;
+  color: #4B4B4B;
+}
+a {
+  text-decoration: none;
+  color: #4B4B4B;
+}
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+h2 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+}
+.textsize {
+  width: 80%;
+}
+
+/* Header */
+
+header {
+  background-color: #ffffff;
+  display: flex;
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 4rem;
+  z-index: 10;
+}
+.logo {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  margin-left: 1.5rem;
+}
+.logo img {
+  height: 2rem;
+}
+.logo span {
+  font-family: Orbitron;
+  font-size: 1.5rem;
+  color: #C3C3C3;
+}
+strong {
+  font-weight: bold;
+  color: #4B4B4B;
+}
+.menu {
+  display: flex;
+  padding-right: 1.5rem;
+}
+.menu li {
+  font-size: 1.25rem;
+  margin-left: 1rem;
+}
+.mobilemenu {
+  display: none;
+}
+
+/* Section 1 */
+
+.top {
+  padding-top: 4rem;
+  display: flex;
+  align-items: center;
+  background-color: #D7D7D7;
+}
+.top img {
+  width: 60%;
+  margin: 2rem 1.5rem;
+}
+.learn {
+  width: 25%;
+  margin-left: 1.5rem;
+}
+.learn h1 {
+  margin-bottom: 1.5rem;
+}
+.learn span {
+  font-size: 1.5rem;
+}
+.learn h4 {
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem 0;
+  color: #ffffff;
+  background-color: #4B4B4B;
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+/* Section 2 */
+
+.middletop {
+  background-color: #F3F5F5;
+}
+.practicing {
+  width: 65%;
+  padding-top: 2rem;
+  margin: 0 1.5rem 2rem 1.5rem;
+}
+.practicing img {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+.practicing h1 {
+  margin-bottom: 1.5rem;
+}
+.practicing h6 {
+  margin-top: 2rem;
+}
+.orientation {
+  width: 40%;
+  border-left: 1px solid #D7D7D7;
+}
+.topalign {
+  padding-top: 0.95rem;
+}
+.orientation img {
+  width: 35%;
+  margin: 1rem 1rem;
+}
+.orientation .mimg {
+  display: none;
+}
+.orientation .column {
+  width: 65%;
+}
+.orientation .row {
+  display: flex;
+  align-items: center;
+}
+.orientation h2, .orientation span {
+  margin-bottom: 0.5rem;
+}
+.orientation a {
+  color: #82B1EA;
+}
+.orientation .guest {
+  background-color: #D7D7D7;
+}
+.orientation .border {
+  border-top: 1px solid #D7D7D7;
+  border-bottom: 1px solid #D7D7D7;
+}
+
+/* Section 3 */
+
+.middlebottom {
+  padding: 1rem 2.5rem;
+  display: flex;
+  align-items: center;
+  background-color: #E9EAEB;
+}
+.courses {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.course {
+  width: 25%;
+  margin: 1rem 2rem;
+}
+.course img {
+  width: 100%;
+}
+.coursetext {
+  height: 40%;
+  padding: 1rem 0 1.5rem 1rem;
+  background-color: #ffffff;
+}
+.coursetext h2, .coursetext h5 {
+  margin-bottom: 0.5rem;
+}
+
+/* Section 4 */
+
+.bottom {
+  align-items: center;
+  padding-bottom: 2rem;
+  background-color: #F3F5F5;
+}
+.bottom h1 {
+  margin: 2rem 0;
+}
+.reimagine {
+  width: 65%;
+  padding: 0 1.5rem;
+}
+.reimagine video {
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+.reimagine h2 {
+  margin-bottom: 0.5rem;
+}
+.fisma {
+  width: 40%;
+}
+.fisma .row {
+  align-items: center;
+}
+.fisma img {
+  width: 35%;
+  margin: 1rem 1rem 0 1rem;
+}
+.fisma .text {
+  width: 65%;
+}
+.bottomborder {
+  background-color: #D7D7D7;
+}
+
+/* Footer */
+
+footer {
+  border-top: 1px solid #D7D7D7;
+  padding: 1rem 1.5rem;
+  background-color: #F3F5F5;
+}
+.copyright {
+  display: flex;
+  flex-grow: 1;
+}
+footer ul li {
+  padding-right: 1rem;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 950px) {
+
+/* Header */
+
+  .menu {
+    display: none;
+  }
+  .logo {
+    display: none;
+  }
+  .mobilemenu {
+    display: flex;
+    justify-content: space-around;
+  }
+  nav {
+    width: 100%;
+  }
+
+  /* Section 1 */
+
+  .top {
+    flex-direction: column;
+  }
+  .top img {
+    width: 100%;
+    margin: 0 0 2rem 0;
+  }
+  .learn {
+    width: 100%;
+    margin-left: 1rem;
+  }
+  .learn h1 {
+    margin-bottom: 2rem;
+  }
+  .learn h4 {
+    margin-right: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  /* Section 2 */
+
+  .practicing {
+    display: none;
+  }
+  .orientation .row {
+    flex-direction: column;
+  }
+  .orientation {
+    width: 100%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border: none;
+  }
+  .orientation .column {
+    width: 100%;
+    margin-left: 1rem;
+  }
+  .orientation .border {
+    border: none;
+  }
+  .orientation .dimg {
+    display: none;
+  }
+  .orientation .mimg {
+    display: inline-block;
+  }
+  .orientation img {
+    width: 100%;
+  }
+  .orientation .guest {
+    background-color: inherit;
+  }
+  .orientation a {
+    margin-bottom: 2rem;
+  }
+
+  /* Section 3 */
+
+  .middlebottom {
+    background-color: #F3F5F5;
+    border-top: 1px solid #D7D7D7;
+    border-bottom: 1px solid #D7D7D7;
+    padding: 2rem 0 2rem 0;
+  }
+  .middlebottom .row {
+    flex-direction: column;
+  }
+  .courses {
+    width: 100%;
+  }
+  .courses .column {
+    display: flex;
+    justify-content: center;
+  }
+  .course {
+    width: 100%;
+    margin: 0 0;
+  }
+  .course img {
+    display: none;
+  }
+  .coursetext {
+    max-width: 100%;
+    background-color: #D7D7D7;
+    padding: 1rem 1rem;
+    margin: 0 1rem;
+  }
+  .coursetext h5, .coursetext span {
+    display: none;
+  }
+
+  /* Section 4 */
+
+  .textsize {
+    display: none;
+  }
+  .fisma {
+    display: none;
+  }
+  .reimagine {
+    width: 100%;
+  }
+}
