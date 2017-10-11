@@ -57,7 +57,7 @@ html {
 body {
   font-family: raleway, sans-serif;
   line-height: 1.2;
-  color: #4B4B4B;
+  color: #000000;
 }
 a {
   text-decoration: none;
@@ -107,11 +107,11 @@ header {
 .logo span {
   font-family: Orbitron;
   font-size: 1.5rem;
-  color: #C3C3C3;
+  color: #052D8A;
 }
 strong {
   font-weight: bold;
-  color: #4B4B4B;
+  color: #0B2B75;
 }
 .menu {
   display: flex;
@@ -131,7 +131,8 @@ strong {
   padding-top: 4rem;
   display: flex;
   align-items: center;
-  background-color: #D7D7D7;
+  color: #ffffff;
+  background-color: #052D8A;
 }
 .top img {
   width: 60%;
@@ -150,9 +151,9 @@ strong {
 .learn h4 {
   display: flex;
   justify-content: center;
-  padding: 0.5rem 0;
   color: #ffffff;
-  background-color: #4B4B4B;
+  padding: 0.5rem 0;
+  background-color: #131A2A;
   font-size: 1.5rem;
   margin-top: 1.5rem;
 }
@@ -160,7 +161,7 @@ strong {
 /* Section 2 */
 
 .middletop {
-  background-color: #F3F5F5;
+  background-color: #ffffff;
 }
 .practicing {
   width: 65%;
@@ -179,7 +180,7 @@ strong {
 }
 .orientation {
   width: 40%;
-  border-left: 1px solid #D7D7D7;
+  border-left: 1px solid #052D8A;
 }
 .topalign {
   padding-top: 0.95rem;
@@ -202,14 +203,15 @@ strong {
   margin-bottom: 0.5rem;
 }
 .orientation a {
-  color: #82B1EA;
+  color: #4B8FE1;
 }
 .orientation .guest {
-  background-color: #D7D7D7;
+  color: #ffffff;
+  background-color: #052D8A;
 }
 .orientation .border {
-  border-top: 1px solid #D7D7D7;
-  border-bottom: 1px solid #D7D7D7;
+  border-top: 1px solid #052D8A;
+  border-bottom: 1px solid #052D8A;
 }
 
 /* Section 3 */
@@ -218,7 +220,10 @@ strong {
   padding: 1rem 2.5rem;
   display: flex;
   align-items: center;
-  background-color: #E9EAEB;
+  background-color: #052D8A;
+}
+.middlebottom h1 {
+  color: #ffffff;
 }
 .courses {
   flex-wrap: wrap;
@@ -234,7 +239,8 @@ strong {
 .coursetext {
   height: 40%;
   padding: 1rem 0 1.5rem 1rem;
-  background-color: #ffffff;
+  color: #ffffff;
+  background-color: #131A2A;
 }
 .coursetext h2, .coursetext h5 {
   margin-bottom: 0.5rem;
@@ -245,7 +251,7 @@ strong {
 .bottom {
   align-items: center;
   padding-bottom: 2rem;
-  background-color: #F3F5F5;
+  background-color: #ffffff;
 }
 .bottom h1 {
   margin: 2rem 0;
@@ -274,20 +280,25 @@ strong {
 .fisma .text {
   width: 65%;
 }
-.bottomborder {
-  background-color: #D7D7D7;
+.surround {
+  background-color: #052D8A;
+  color: #ffffff;
+  padding-bottom: 1rem;
 }
 
 /* Footer */
 
 footer {
-  border-top: 1px solid #D7D7D7;
   padding: 1rem 1.5rem;
-  background-color: #F3F5F5;
+  background-color: #052D8A;
+  color: #ffffff;
 }
 .copyright {
   display: flex;
   flex-grow: 1;
+}
+footer a {
+  color: #ffffff;
 }
 footer ul li {
   padding-right: 1rem;
@@ -366,6 +377,7 @@ footer ul li {
   }
   .orientation .guest {
     background-color: inherit;
+    color: #000000;
   }
   .orientation a {
     margin-bottom: 2rem;
@@ -374,9 +386,6 @@ footer ul li {
   /* Section 3 */
 
   .middlebottom {
-    background-color: #F3F5F5;
-    border-top: 1px solid #D7D7D7;
-    border-bottom: 1px solid #D7D7D7;
     padding: 2rem 0 2rem 0;
   }
   .middlebottom .row {
@@ -398,9 +407,9 @@ footer ul li {
   }
   .coursetext {
     max-width: 100%;
-    background-color: #D7D7D7;
+    background-color: #131A2A;
     padding: 1rem 1rem;
-    margin: 0 1rem;
+    margin: 0.5rem 1rem;
   }
   .coursetext h5, .coursetext span {
     display: none;
