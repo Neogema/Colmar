@@ -307,7 +307,7 @@ footer ul li {
 
 /* Media Queries */
 
-@media only screen and (max-width: 950px) {
+@media only screen and (max-width: 985px) {
 
 /* Header */
 
@@ -426,5 +426,6 @@ footer ul li {
   }
   .reimagine {
     width: 100%;
+    padding: 0 0;
   }
 }
