@@ -269,6 +269,7 @@ strong {
 }
 .fisma {
   width: 40%;
+  margin-top: 0.85rem;
 }
 .fisma .row {
   align-items: center;
