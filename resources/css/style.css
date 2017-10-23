@@ -4,25 +4,25 @@
   font-family: 'Orbitron';
   font-style: normal;
   font-weight: 400;
-  src: url('../fonts/orbitron-v9-latin-regular.eot');
+  src: url('../fonts/orbitron-regular.eot');
   src: local('Orbitron Regular'), local('Orbitron-Regular'),
-       url('../fonts/orbitron-v9-latin-regular.eot?#iefix') format('embedded-opentype'),
-       url('../fonts/orbitron-v9-latin-regular.woff2') format('woff2'),
+       url('../fonts/orbitron-regular.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/orbitron-regular.woff2') format('woff2'),
        url('../fonts/orbitron-regular.woff') format('woff'),
-       url('../fonts/orbitron-v9-latin-regular.ttf') format('truetype'),
-       url('../fonts/orbitron-v9-latin-regular.svg#Orbitron') format('svg');
+       url('../fonts/orbitron-regular.ttf') format('truetype'),
+       url('../fonts/orbitron-regular.svg#Orbitron') format('svg');
 }
 @font-face {
   font-family: 'Orbitron';
   font-style: normal;
   font-weight: 700;
-  src: url('../fonts/orbitron-v9-latin-700.eot');
+  src: url('../fonts/orbitron-700.eot');
   src: local('Orbitron Bold'), local('Orbitron-Bold'),
-       url('../fonts/orbitron-v9-latin-700.eot?#iefix') format('embedded-opentype'),
-       url('../fonts/orbitron-v9-latin-700.woff2') format('woff2'),
+       url('../fonts/orbitron-700.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/orbitron-700.woff2') format('woff2'),
        url('../fonts/orbitron-bold.woff') format('woff'),
-       url('../fonts/orbitron-v9-latin-700.ttf') format('truetype'),
-       url('../fonts/orbitron-v9-latin-700.svg#Orbitron') format('svg');
+       url('../fonts/orbitron-700.ttf') format('truetype'),
+       url('../fonts/orbitron-700.svg#Orbitron') format('svg');
 }
 @font-face {
   font-family: 'Raleway';
